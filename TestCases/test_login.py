@@ -14,8 +14,8 @@ class Test_001_Login:
         actual_title = self.driver.title
 
 
-        if actual_title == "Your storesss. Login":
-            self.driver.close()
+        if actual_title == "Your store. Login":
+            self.driver.quit()
             assert True
         else:
             self.driver.save_screenshot(".\\screenshots\\"+"test_homePageTitle.png")
@@ -32,10 +32,13 @@ class Test_001_Login:
         self.loginPageObject.clickLogin()
 
         actual_title = self.driver.title
-        self.driver.close()
+
 
         if actual_title == "Dashboard / nopCommerce administration":
+            self.driver.quit()
             assert True
         else:
+            self.driver.save_screenshot(".\\screenshots\\" + "test_login.png")
+            self.driver.quit()
             assert False
 
