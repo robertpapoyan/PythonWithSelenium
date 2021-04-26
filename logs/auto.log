@@ -1,0 +1,5 @@
+2021-04-26 23:24:44,518 - INFO - ****Test_001_Login****
+2021-04-26 23:24:44,519 - INFO - ****Verification of HomePage Title****
+2021-04-26 23:24:46,871 - ERROR - ****Home page title test is FAILED****
+2021-04-26 23:24:51,598 - INFO - ****VERIFICATION OF LOG IN****
+2021-04-26 23:24:59,173 - INFO - ****Login test is PASSED SUCCESSFULLY****
