@@ -1,8 +1,8 @@
 class LoginPage:
     textbox_username_id="Email"
     textbox_password_id="Password"
-    button_login_xpath="/html/body/div[6]/div/div/div/div/div[2]/div[1]/div/form/div[3]/button"
-    link_logut_linktext="Logout"
+    button_login_css_selector=".button-1"
+    button_logut_css_selector=".ml-auto > li:nth-child(3) > a:nth-child(1)"
 
     def __init__(self,driver):
         self.driver = driver
@@ -16,7 +16,7 @@ class LoginPage:
         self.driver.find_element_by_id(self.textbox_password_id).send_keys(password)
 
     def clickLogin(self):
-        self.driver.find_element_by_xpath(self.button_login_xpath).click()
+        self.driver.find_element_by_css_selector(self.button_login_css_selector).click()
 
     def clickLogOut(self):
-        self.driver.find_element_by_link_tex(self.button_logout_linktext).click()
+        self.driver.find_element_by_css_selector(self.button_logut_css_selector).click()
