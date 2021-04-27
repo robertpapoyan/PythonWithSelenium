@@ -3,3 +3,22 @@
 2021-04-26 23:24:46,871 - ERROR - ****Home page title test is FAILED****
 2021-04-26 23:24:51,598 - INFO - ****VERIFICATION OF LOG IN****
 2021-04-26 23:24:59,173 - INFO - ****Login test is PASSED SUCCESSFULLY****
+2021-04-27 11:00:38,327 - INFO - ****Test_001_Login****
+2021-04-27 11:00:38,327 - INFO - ****Verification of HomePage Title****
+2021-04-27 11:00:51,881 - ERROR - ****Home page title test is FAILED****
+2021-04-27 11:00:52,924 - INFO - ****VERIFICATION OF LOG IN****
+2021-04-27 11:01:09,184 - INFO - ****Login test is PASSED SUCCESSFULLY****
+2021-04-27 11:39:31,161 - INFO - ****Test_001_Login****
+2021-04-27 11:39:31,161 - INFO - ****Verification of HomePage Title****
+2021-04-27 11:39:32,906 - INFO - ****Home page title test is PASSED SUCCESSFULLY****
+2021-04-27 11:39:38,633 - INFO - ****VERIFICATION OF LOG IN****
+2021-04-27 11:39:47,552 - INFO - ****Login test is PASSED SUCCESSFULLY****
+2021-04-27 11:43:29,275 - INFO - ****Test_001_Login****
+2021-04-27 11:43:29,275 - INFO - ****Verification of HomePage Title****
+2021-04-27 11:43:29,771 - INFO - ****VERIFICATION OF LOG IN****
+2021-04-27 11:43:30,960 - INFO - ****Home page title test is PASSED SUCCESSFULLY****
+2021-04-27 11:43:36,299 - INFO - ****Login test is PASSED SUCCESSFULLY****
+2021-04-27 11:44:02,916 - INFO - ****Test_001_Login****
+2021-04-27 11:44:02,916 - INFO - ****Verification of HomePage Title****
+2021-04-27 11:44:02,916 - INFO - ****VERIFICATION OF LOG IN****
+2021-04-27 11:44:04,682 - INFO - ****Home page title test is PASSED SUCCESSFULLY****

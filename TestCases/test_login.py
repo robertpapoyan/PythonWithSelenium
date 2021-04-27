@@ -22,7 +22,7 @@ class Test_001_Login():
 
         actual_title = self.driver.title
 
-        if actual_title == "Your store. Loginasddasdasd":
+        if actual_title == "Your store. Login":
             assert True
             self.logger.info("****Home page title test is PASSED SUCCESSFULLY****")
             self.driver.quit()
