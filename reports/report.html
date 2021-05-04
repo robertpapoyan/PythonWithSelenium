@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 27-Apr-2021 at 16:04:20 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 04-May-2021 at 20:09:46 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -265,8 +265,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.9.2</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 47.34 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>0 tests ran in 4.82 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">1 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -277,20 +277,12 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="passed results-table-row">
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_login_ddt.py::Test_002_DDT_Login::test_login_ddt</td>
-          <td class="col-duration">46.61</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">TestCases/test_addNewCustomer.py::Test_003_AddNewCustomer::test_addNewCustomer::setup</td>
+          <td class="col-duration">4.70</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">[gw0] win32 -- Python 3.9.2 c:\users\administrator\pycharmprojects\pythonwithseleniumx\venv\scripts\python.exe<br/>[gw0] win32 -- Python 3.9.2 c:\users\administrator\pycharmprojects\pythonwithseleniumx\venv\scripts\python.exe[gw0] win32 -- Python 3.9.2 c:\users\administrator\pycharmprojects\pythonwithseleniumx\venv\scripts\python.exe[gw0] win32 -- Python 3.9.2 c:\users\administrator\pycharmprojects\pythonwithseleniumx\venv\scripts\python.exe<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_login_ddt.py:17 ****Test_002_Login_DDT****
-INFO     root:test_login_ddt.py:18 ****VERIFICATION OF LOG IN DDT****
-INFO     root:test_login_ddt.py:51 ****Login test is PASSED SUCCESSFULLY****
-INFO     root:test_login_ddt.py:67 **** passed ****
-INFO     root:test_login_ddt.py:67 **** passed ****
-INFO     root:test_login_ddt.py:67 **** passed ****
-INFO     root:test_login_ddt.py:72 ******* DDT Login test passed **********
-INFO     root:test_login_ddt.py:81 ******* End of Login DDT Test **********
-INFO     root:test_login_ddt.py:82 **************** Completed  TC_LoginDDT_002 *************<br/></div></td></tr></tbody></table></body></html>
+            <div class="log">cls = &lt;class &#x27;_pytest.runner.CallInfo&#x27;&gt;, func = &lt;function call_runtest_hook.&lt;locals&gt;.&lt;lambda&gt; at 0x0000026303863EE0&gt;, when = &#x27;setup&#x27;<br/>reraise = (&lt;class &#x27;_pytest.outcomes.Exit&#x27;&gt;, &lt;class &#x27;KeyboardInterrupt&#x27;&gt;)<br/><br/>    @classmethod<br/>    def from_call(<br/>        cls,<br/>        func: &quot;Callable[[], TResult]&quot;,<br/>        when: &quot;Literal[&#x27;collect&#x27;, &#x27;setup&#x27;, &#x27;call&#x27;, &#x27;teardown&#x27;]&quot;,<br/>        reraise: Optional[<br/>            Union[Type[BaseException], Tuple[Type[BaseException], ...]]<br/>        ] = None,<br/>    ) -&gt; &quot;CallInfo[TResult]&quot;:<br/>        excinfo = None<br/>        start = timing.time()<br/>        precise_start = timing.perf_counter()<br/>        try:<br/>&gt;           result: Optional[TResult] = func()<br/><br/>venv\lib\site-packages\_pytest\runner.py:311: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>venv\lib\site-packages\_pytest\runner.py:255: in &lt;lambda&gt;<br/>    lambda: ihook(item=item, **kwds), when=when, reraise=reraise<br/>venv\lib\site-packages\pluggy\hooks.py:286: in __call__<br/>    return self._hookexec(self, self.get_hookimpls(), kwargs)<br/>venv\lib\site-packages\pluggy\manager.py:93: in _hookexec<br/>    return self._inner_hookexec(hook, methods, kwargs)<br/>venv\lib\site-packages\pluggy\manager.py:84: in &lt;lambda&gt;<br/>    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(<br/>venv\lib\site-packages\_pytest\nose.py:13: in pytest_runtest_setup<br/>    call_optional(item.parent.obj, &quot;setup&quot;)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>obj = &lt;TestCases.test_addNewCustomer.Test_003_AddNewCustomer object at 0x0000026303855940&gt;, name = &#x27;setup&#x27;<br/><br/>    def call_optional(obj, name):<br/>        method = getattr(obj, name, None)<br/>        isfixture = hasattr(method, &quot;_pytestfixturefunction&quot;)<br/>        if method is not None and not isfixture and callable(method):<br/>            # If there&#x27;s any problems allow the exception to raise rather than<br/>            # silently ignoring them.<br/>&gt;           method()<br/><span class="error">E           TypeError: setup() missing 1 required positional argument: &#x27;setup&#x27;</span><br/><br/>venv\lib\site-packages\_pytest\nose.py:38: TypeError<br/></div></td></tr></tbody></table></body></html>
